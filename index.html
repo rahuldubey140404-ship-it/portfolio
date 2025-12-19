@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahul Kumar Dwivedi | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #0f172a; color: #e5e7eb; line-height: 1.6; }
+
+    header { padding: 70px 20px; text-align: center; background: linear-gradient(135deg, #1e293b, #020617); }
+    header h1 { font-size: 3.2rem; font-weight: 700; }
+    header p { margin-top: 12px; font-size: 1.2rem; color: #94a3b8; }
+
+    section { max-width: 1100px; margin: auto; padding: 70px 20px; }
+    h2 { font-size: 2.1rem; margin-bottom: 35px; border-left: 5px solid #38bdf8; padding-left: 15px; }
+
+    .card {
+      background: #020617;
+      padding: 28px;
+      border-radius: 18px;
+      margin-bottom: 25px;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.45);
+      transition: transform 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.01);
+      box-shadow: 0 25px 55px rgba(56,189,248,0.25);
+    }
+
+    .skills span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #1e293b;
+      padding: 10px 18px;
+      margin: 8px;
+      border-radius: 25px;
+      font-size: 0.95rem;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .skills span:hover {
+      background: #38bdf8;
+      color: #020617;
+      transform: translateY(-3px);
+    }
+
+    img {
+      border-radius: 14px;
+      margin-top: 15px;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    a:hover { color: #7dd3fc; }
+
+    footer { text-align: center; padding: 45px 20px; background: #020617; }
+
+    footer a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 12px;
+      font-weight: 500;
+    }
+
+    footer p { margin-top: 18px; color: #94a3b8; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="photos/1000018558.png" alt="Rahul Kumar Dwivedi" style="width:160px;height:160px;border-radius:50%;border:4px solid #38bdf8;box-shadow:0 15px 35px rgba(56,189,248,0.35);margin-bottom:20px;object-fit:cover;" />
+  <h1>Rahul Kumar Dwivedi</h1>
+  <p>B.Tech Computer Science Student | Aspiring Software Developer | Certified Ethical Hacker</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am a B.Tech Computer Science student with a strong interest in software development, web technologies, and problem-solving. 
+      I enjoy working with programming languages and building practical applications that improve efficiency and user experience. 
+      My areas of interest include web development, database management, and emerging technologies. 
+      My career goal is to become a skilled computer science professional, continuously learning and contributing to innovative tech projects.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="card">
+    <h3>B.Tech in Computer Science Engineering (cse core)</h3>
+    <p>Vellore Institute Of Technology 
+        (Campus: bhopal)</p>
+    <p><strong>Duration:</strong> 2024 – 2028</p>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>C++</span>
+    <span>Java</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Data Structures & Algorithms</span>
+  </div>
+</section>
+
+<section>
+  <h2>Certifications</h2>
+  <div class="card">
+    <h3>Cisco Networking Academy</h3>
+    <ul>
+      <li>Introduction to Cybersecurity</li>
+      <li>Introduction to Data Science</li>
+      <li>Ethical Hacker</li>
+    </ul>
+    <img src="photos/Screenshot_2025-12-17-12-04-10-29_8149d18022d490a2e5d0363566b570a3.jpg" alt="Cisco Introduction to Cybersecurity Certificate" width="100%" />
+    <img src="photos/Screenshot_2025-12-13-14-55-35-74_8149d18022d490a2e5d0363566b570a3.jpg" alt="Cisco Introduction to Data Science Certificate" width="100%" />
+    <img src="photos/Screenshot_2025-12-19-12-08-48-72_439a3fec0400f8974d35eed09a31f914.jpg" alt="Cisco Ethical Hacker Certificate" width="100%" />
+  </div>
+
+  <div class="card">
+    <h3>Deloitte</h3>
+    <ul>
+      <li>Cyber Job Simulation</li>
+    </ul>
+    <img src="photos/IMG_20251218_195457.jpg" alt="Deloitte Cyber Job Simulation Certificate" width="100%" />
+  </div>
+
+  <div class="card">
+    <h3>NPTEL (IIT Kharagpur)</h3>
+    <ul>
+      <li>Cloud Computing</li>
+    </ul>
+    <img src="photos/IMG_20251219_114643.jpg" alt="NPTEL Cloud Computing Certificate" width="100%" />
+  </div>
+
+  <div class="card">
+    <h3>MathWorks</h3>
+    <ul>
+      <li>MATLAB Onramp</li>
+    </ul>
+    <img src="photos/IMG_20251219_114524.jpg" alt="MathWorks MATLAB Certificate" width="100%" />
+  </div>
+
+  <div class="card">
+    <h3>Oracle Dev Gym</h3>
+    <ul>
+      <li>Databases for Developers: Next Level</li>
+    </ul>
+    <img src="photos/1000018544.jpg" alt="Oracle Dev Gym Certificate" width="100%" />
+  </div>
+
+  <div class="card">
+    <h3>Vityarthi</h3>
+    <ul>
+      <li>Python Essentials</li>
+      <li>Programming in Java</li>
+      <li>Fundamentals of AI & ML</li>
+    </ul>
+    <img src="photos/1000018546.jpg" alt="Vityarthi Python Essentials Certificate" width="100%" />
+    <img src="photos/1000018548.jpg" alt="Vityarthi Programming in Java Certificate" width="100%" />
+    <img src="photos/IMG_20251219_114617.jpg" alt= "Vityarthi AI & ML Certificate" width="100%" />
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>Travel Booking Website</h3>
+    <p>Designed and developed a complete travel booking website that allows users to explore travel packages and services with a clean and user-friendly interface.</p>
+    <p><strong>Live Project:</strong> <a href="https://aviprotravels.free.nf/" target="_blank">aviprotravels.free.nf</a></p>
+    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+  </div>
+
+  <div class="card">
+    <h3>Student Portfolio Website</h3>
+    <p>Designed and developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase skills, education, and certifications.</p>
+    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+  </div>
+
+  <div class="card">
+    <h3>Data Structures & Algorithms Practice</h3>
+    <p>Implemented and practiced core data structures and algorithms to strengthen problem-solving skills and improve coding efficiency.</p>
+    <p><strong>Technologies:</strong> C++, Java</p>
+  </div>
+
+  <div class="card">
+    <h3>Basic Web Applications</h3>
+    <p>Developed small web-based applications focusing on form validation, DOM manipulation, and responsive web design.</p>
+    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+  </div>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="card">
+    <p><strong>Fresher</strong> — Actively learning and building academic & personal projects.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <div class="card">
+    <p><strong>Email:</strong> rahuldubey140404@gmail.com</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rahul-dwivedi-925b8b214" target="_blank">linkedin.com/in/rahul-dwivedi</a></p>
+  </div>
+</section>
+
+<footer>
+  <a href="mailto:rahuldubey140404@gmail.com">Email</a>
+  <a href="https://www.linkedin.com/in/rahul-dwivedi-925b8b214" target="_blank">LinkedIn</a>
+  <p>© 2025 Rahul Kumar Dwivedi. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
